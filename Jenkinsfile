@@ -10,7 +10,7 @@ pipeline {
       sh "pwd"
       }
     }
-    stage ('Deploy){
+    stage ('Deploy'){
       steps {
         sh "touch myfile.txt"
       }     
