@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh "ls"
       }
+    }
     stage ('Test'){
       steps{
       sh "pwd"
@@ -18,4 +19,4 @@ pipeline {
     }
     
   }
-}
+
